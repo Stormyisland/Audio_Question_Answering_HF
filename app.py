@@ -15,6 +15,9 @@ conversation = [
       {"role":"assistant", "content": "It is the sound of glass shattering."},
       {"role": "user",context": [ 
             {"type":"text", "text": "What can you do when you hear that?"},
+        ]},
+        ]
+        text = processor.apply_chat_template(conversation, add_generation_promt=True, tokenize=False
             
       
       
