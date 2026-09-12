@@ -13,6 +13,8 @@ conversation = [
       {"type": "text", "text"; "What's that sound?"},
       ]},
       {"role":"assistant", "content": "It is the sound of glass shattering."},
-      {"role": "user",context": [
+      {"role": "user",context": [ 
+            {"type":"text", "text": "What can you do when you hear that?"},
+            
       
       
