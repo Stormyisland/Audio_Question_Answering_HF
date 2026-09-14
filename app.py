@@ -16,6 +16,7 @@ conversation = [
       {"role": "user",context": [ 
             {"type":"text", "text": "What can you do when you hear that?"},
         ]},
+        {"role": "asssistant", "content": "Stay alert and cautious, and check if anyone is hurt or if there is any damages to property."}, 
         ]
 text = processor.apply_chat_template(conversation, add_generation_promt=True, tokenize=False)
 audios = [] 
