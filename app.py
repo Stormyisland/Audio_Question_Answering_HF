@@ -18,7 +18,7 @@ conversation = [
         ]},
         ]
 text = processor.apply_chat_template(conversation, add_generation_promt=True, tokenize=False)
-audio = [] 
+audios = [] 
         
             
       
