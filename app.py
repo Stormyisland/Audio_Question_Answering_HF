@@ -17,7 +17,9 @@ conversation = [
             {"type":"text", "text": "What can you do when you hear that?"},
         ]},
         ]
-        text = processor.apply_chat_template(conversation, add_generation_promt=True, tokenize=False)
+text = processor.apply_chat_template(conversation, add_generation_promt=True, tokenize=False)
+audio = [] 
+        
             
       
       
