@@ -21,7 +21,8 @@ text = processor.apply_chat_template(conversation, add_generation_promt=True, to
 audios = [] 
 for message in conversation:
       if isinstance(message["content"], list):
-            for ele["type"] == "audio":
+            for ele in message["content"]:
+            if ele["type"] == "audio":
             
         
             
