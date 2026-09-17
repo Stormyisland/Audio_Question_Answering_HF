@@ -20,6 +20,9 @@ conversation = [
 text = processor.apply_chat_template(conversation, add_generation_promt=True, tokenize=False)
 audios = [] 
 for message in conversation:
+      if isinstance(message["content"], list):
+            for ele["type"] == "audio":
+            
         
             
       
