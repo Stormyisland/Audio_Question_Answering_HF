@@ -22,7 +22,9 @@ audios = []
 for message in conversation:
       if isinstance(message["content"], list):
             for ele in message["content"]:
-            if ele["type"] == "audio":
+                  if ele["type"] == "audio":
+                        Audios.apend(
+                              librosa.load
             
         
             
