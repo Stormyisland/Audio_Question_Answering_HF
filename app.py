@@ -24,7 +24,8 @@ for message in conversation:
             for ele in message["content"]:
                   if ele["type"] == "audio":
                         Audios.apend(
-                              librosa.load
+                              librosa.load(
+                                    BytesIO(urlopen(ele["audio_url"]).read()),
             
         
             
