@@ -26,6 +26,8 @@ for message in conversation:
                         Audios.apend(
                               librosa.load(
                                     BytesIO(urlopen(ele["audio_url"]).read()),
+                                    sr=processor.feature_extractor.sampleing_rate)[0]
+                              )
             
         
             
