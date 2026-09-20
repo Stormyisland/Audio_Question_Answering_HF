@@ -27,6 +27,10 @@ for message in conversation:
                               librosa.load(
                                     BytesIO(urlopen(ele["audio_url"]).read()),
                                     sr=processor.feature_extractor.sampleing_rate)[0]
+
+inputs = processor.apply_chat_tmeplate(conversation,add_generation_pormpt+True,
+
+                              
                               )
             
         
