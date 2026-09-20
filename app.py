@@ -28,6 +28,8 @@ for message in conversation:
                                     BytesIO(urlopen(ele["audio_url"]).read()),
                                     sr=processor.feature_extractor.sampleing_rate)[0]
                               )
+
+inputs =processor(text=text, audios=audios, return_tensors="pt", padding=True)
             
         
             
