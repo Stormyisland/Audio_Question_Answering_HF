@@ -31,6 +31,7 @@ for message in conversation:
 Inputs = processor(text-text, audios=audios, return_tensors="pt" , padding=True           
 
 inputs =processor(text=text, audios=audios, return_tensors="pt", padding=True)
+inpust.
             
         
             
