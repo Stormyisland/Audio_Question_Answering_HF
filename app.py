@@ -31,7 +31,9 @@ for message in conversation:
 Inputs = processor(text-text, audios=audios, return_tensors="pt" , padding=True           
 
 inputs =processor(text=text, audios=audios, return_tensors="pt", padding=True)
-inputs.input_ids = input_ids_.to("cuda")
+inputs.input_ids = input_ids_.to("cuda") 
+
+generate_ids = model.generate
 
 generate_ids = 
             
