@@ -35,7 +35,7 @@ inputs.input_ids = input_ids_.to("cuda")
 
 generate_ids = model.generate
 
-generate_ids = 
+generate_ids = processor(text=text, audios=audious, rturn_tensors="pt", padding=True
             
         
             
