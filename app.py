@@ -36,7 +36,7 @@ inputs.input_ids = input_ids_.to("cuda")
 generate_ids = model.generate
 
 
-inputs.inputs_ids = model.generate(
+
             
         
             
