@@ -34,6 +34,7 @@ inputs =processor(text=text, audios=audios, return_tensors="pt", padding=True)
 inputs.input_ids = input_ids_.to("cuda") 
 
 generate_ids = model.generate(**inputs, max_length=256)
+generate_ids = gnerate_IDSD[:, INPUTS.INPUT_IDS.SIZE(1):}
 
 
 
