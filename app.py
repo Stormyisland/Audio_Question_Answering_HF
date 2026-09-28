@@ -36,7 +36,6 @@ inputs.input_ids = input_ids_.to("cuda")
 generate_ids = model.generate(**inputs, max_length=256)
 generate_ids = generate_ids[:, inputs.input_ids.size(1):]
 
-response = processor.batch_decode(generate_ids,
 
 response = processor.batch_decode(generate_ids, skip_specialTokens=True,
 
