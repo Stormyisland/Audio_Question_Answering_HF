@@ -7,13 +7,13 @@ from urllib.request import urlopen
 import librosa
 from transformers import Qwen2AudioForConditionalGeneration, AutoProcessor
 
-processor = AutoProcessor.from_pretrained("Qwen/Qwen2-Audio-7B-Instruct")```
+processor = AutoProcessor.from_pretrained("Qwen/Qwen2-Audio-7B-Instruct")
 
 model = Qwen2AudioForConditionalGeneration.from_pretrained(
     "Qwen/Qwen2-Audio-7B-Instruct", device_map="auto"
 )
 conversation = 
-
+```
 
 # Notes
 Requires a CUDA GPU (device_map="auto", .to("cuda")).
