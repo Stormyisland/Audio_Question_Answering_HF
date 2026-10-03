@@ -21,3 +21,6 @@ Requires a CUDA GPU (device_map="auto", .to("cuda")).
 Original snippet had typos: ConitonalGenertaion, comtent, text-text, Audios.apend, sampleing_rate — all fixed above.
 
 Output
+
+text
+It is the sound of glass shattering.
