@@ -15,7 +15,7 @@ model = Qwen2AudioForConditionalGeneration.from_pretrained(
 conversation = 
 
 
-Notes
+# Notes
 Requires a CUDA GPU (device_map="auto", .to("cuda")).
 
 Original snippet had typos: ConitonalGenertaion, comtent, text-text, Audios.apend, sampleing_rate — all fixed above.
