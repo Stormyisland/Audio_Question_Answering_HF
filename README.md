@@ -12,7 +12,7 @@ processor = AutoProcessor.from_pretrained("Qwen/Qwen2-Audio-7B-Instruct")
 model = Qwen2AudioForConditionalGeneration.from_pretrained(
     "Qwen/Qwen2-Audio-7B-Instruct", device_map="auto"
 )
-conversation = 
+conversation =  {"role": "system", "content": "You are a helpful assistant."},
 ```
 
 # Notes
