@@ -13,6 +13,7 @@ model = Qwen2AudioForConditionalGeneration.from_pretrained(
     "Qwen/Qwen2-Audio-7B-Instruct", device_map="auto"
 )
 conversation =  {"role": "system", "content": "You are a helpful assistant."},
+ {"role": "user", "content":
 ```
 
 # Notes
