@@ -17,6 +17,11 @@ conversation =  {"role": "system", "content": "You are a helpful assistant."},
 {"type": "text", "text": "What's that sound?"},
     ]},
 {"role": "assistant", "content": "It is the sound of glass shattering."},
+]},
+]
+
+text = processor.apply_chat_template(conversation, add_generation_prompt=True, tokenize=False)
+
 ```
 
 # Notes
