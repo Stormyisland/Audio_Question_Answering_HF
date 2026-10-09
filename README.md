@@ -22,6 +22,7 @@ conversation =  {"role": "system", "content": "You are a helpful assistant."},
 
 text = processor.apply_chat_template(conversation, add_generation_prompt=True, tokenize=False)
 
+audios = []
 ```
 
 # Notes
