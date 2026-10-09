@@ -8,7 +8,9 @@ model = Qwen2AudioForConditionalGeneration.from_pretrained('Qwen/Qwen2-Audio-7-I
 
 conversation = [
       {'role': 'system', 'comtent': 'You are a helpful assistant.'}, 
-   
+    ]},
+    {"role": "assistant", "content": "It is the sound of glass shattering."},
+    {"role": "user", "content":
 
 
 
