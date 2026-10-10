@@ -13,6 +13,7 @@ conversation = [
     {"role": "user", "content":
         {"type": "audio", "audio_url": "https://qianwan-res.oss-cn-beijing.aliyuncs.com/Qwen2-Audio/audio/glass-breaking-151256.mp3"},
              {"type": "text", "text": "What's that sound?"},
+             ]},
 
 
 
